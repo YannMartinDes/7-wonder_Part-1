@@ -7,6 +7,38 @@ The repo, report and ppt are in French.
 
 The second part of this project is [here](https://github.com/YannMartinDes/7-wonder_Part-2/tree/main)
 
+## How to run 
+
+This project uses Java 11  
+Install [JDK 11](https://adoptium.net/fr/temurin/releases?version=11&os=any&arch=any) 
+
+And for running in java 11 only in this project do:  
+`$env:JAVA_HOME="C:\Program Files\Eclipse Adoptium\jdk-11.0.28.6-hotspot"` *(or the path to your JDK 11)*  
+`mvn clean install`    
+
+To simplify run of the game you can launch with ps1 script  
+`.\7wonders\run-game.ps1 [NUMBER OF PLAYER YOU WANT]` (default is 4)  
+
+example: `.\7wonders\run-game.ps1 7`  
+
+It will run the game and the stats server that will generated a csv with the result under `\7wonders\statsserver\stats.csv`
+
+## Screenshot
+**Game**
+<img width="1018" height="297" alt="image" src="https://github.com/user-attachments/assets/a5624ee9-45f9-4b27-adab-35d3c581512c" />
+<img width="1069" height="613" alt="image" src="https://github.com/user-attachments/assets/c1e88cf1-5ab2-456d-8755-ed211a786cea" />
+<img width="1108" height="870" alt="image" src="https://github.com/user-attachments/assets/d4cd353b-d42a-4550-bcff-65922f99579e" />
+<img width="1107" height="876" alt="image" src="https://github.com/user-attachments/assets/8a380b84-eaf6-4491-b6f9-588d0ce0a54a" />
+<img width="1111" height="871" alt="image" src="https://github.com/user-attachments/assets/562535ca-b80e-48be-a781-63f1c47d13fc" />
+<img width="393" height="244" alt="image" src="https://github.com/user-attachments/assets/ebe255ae-4ccb-4d6f-a379-270eff08d725" />
+
+
+**Stats server**
+<img width="1110" height="772" alt="image" src="https://github.com/user-attachments/assets/5518aa97-f604-43fd-b191-041a137731f2" />
+
+
+
+
 # Equipe M1-S1-7W-top4-1 - Top4+1
 
 ## Constituée de
