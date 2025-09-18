@@ -1,3 +1,12 @@
+# Foreword
+This project is a clone of the [project management course repository](https://github.com/uca-m1informatique-softeng/M1-S1-7W-top4-1) (in private).
+
+This part of the project consists of the creation of the Seven wonder game.
+
+The repo, report and ppt are in French.
+
+The second part of this project is [here](https://github.com/YannMartinDes/7-wonder_Part-2/tree/main)
+
 # Equipe M1-S1-7W-top4-1 - Top4+1
 
 ## Constituée de
